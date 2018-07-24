@@ -15,7 +15,7 @@
   "scripts": {
     "prepare": "yarn build && yarn docs",
     "build": "lecc compile src/vdiv.lec",
-    "docs": "lecc docs src/vdiv.lec ./docs",
+    "docs": "lecc docs src/vdiv.lec ./docs && cp README.md docs",
     "serve-docs": "docsify serve ./docs"
   }
 }
