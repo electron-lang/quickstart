@@ -1,0 +1,21 @@
+{
+  "name": "electron-quickstart",
+  "version": "1.0.0",
+  "description": "Electron quickstart template",
+  "repository": "https://github.com/electron-lang/quickstart",
+  "author": "David Craven <david@craven.ch>",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-lang/electron": "next"
+  },
+  "dependencies": {
+    "@lec/electron": "^0.0.1",
+    "docsify-cli": "^4.2.1"
+  },
+  "scripts": {
+    "prepare": "yarn build && yarn docs",
+    "build": "lecc compile src/vdiv.lec",
+    "docs": "lecc docs src/vdiv.lec ./docs",
+    "serve-docs": "docsify serve ./docs"
+  }
+}

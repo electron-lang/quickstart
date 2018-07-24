@@ -1,0 +1,12 @@
+import $R from "@lec/electron/src/cells"
+
+/// A parameterized voltage divider. Takes two parameters of type Ohm.
+export module VoltageDivider(RES1: Ohm, RES2: Ohm) {
+  @left analog vin;
+  @right analog vout;
+  @bottom analog gnd;
+  @rotate(90)
+  cell r1 = $R(RES1) {A=vin, B=vout}
+  @rotate(90)
+  cell r2 = $R(RES2) {A=vout, B=gnd}
+}
