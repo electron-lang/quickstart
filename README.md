@@ -5,6 +5,8 @@ Quickstart template for electron.
 > Electron is a mixed signal netlist language that exports to kicad, spice and
 verilog. It builds on Theia IDE and sprotty to provide modern tool support.
 
+Checkout the [docs](https://electron-lang.github.io/quickstart).
+
 ## License
 ISC License
 
