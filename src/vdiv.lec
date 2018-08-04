@@ -1,12 +1,20 @@
 import $R from "@lec/electron/src/cells"
 
-/// A parameterized voltage divider. Takes two parameters of type Ohm.
-export module VoltageDivider(RES1: Ohm, RES2: Ohm) {
-  @left analog vin;
-  @right analog vout;
-  @bottom analog gnd;
+/// A voltage divider.
+export module VoltageDivider {
+  @left analog vin
+  @right analog vout
+  @bottom analog gnd
+
   @rotate(90)
-  cell r1 = $R(RES1) {A=vin, B=vout}
+  @value("10K")
+  @footprint("Resistors_SMD:R_0402_NoSilk")
+  @bom("Yageo", "RC0402FR-0710KL")
+  cell r1 = $R(10k) {A=vin, B=vout}
+
   @rotate(90)
-  cell r2 = $R(RES2) {A=vout, B=gnd}
+  @value("22K")
+  @footprint("Resistors_SMD:R_0603_NoSilk")
+  @bom("Yageo", "RC0603FR-0722KL")
+  cell r2 = $R(22k) {A=vout, B=gnd}
 }

@@ -13,9 +13,11 @@
     "docsify-cli": "^4.2.1"
   },
   "scripts": {
-    "prepare": "yarn build && yarn docs",
-    "build": "lecc compile src/vdiv.lec",
-    "docs": "lecc docs src/vdiv.lec ./docs && cp README.md docs",
-    "serve-docs": "docsify serve ./docs"
+    "prepare": "yarn build && yarn kicad && yarn bom && yarn docs",
+    "build": "lecc build",
+    "kicad": "lecc kicad",
+    "bom": "lecc bom",
+    "docs": "lecc docs",
+    "serve": "docsify serve ./docs"
   }
 }

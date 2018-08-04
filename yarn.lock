@@ -2,55 +2,28 @@
 # yarn lockfile v1
 
 
-"@electron-lang/celllib@0.1.0-next.f008ff69":
-  version "0.1.0-next.f008ff69"
-  resolved "https://registry.npmjs.org/@electron-lang/celllib/-/celllib-0.1.0-next.f008ff69.tgz#e5db9790fababbf56aea40e8a56ba02cffcbcb21"
+"@electron-lang/celllib@0.1.0-next.5cafd1b":
+  version "0.1.0-next.5cafd1b"
+  resolved "https://registry.npmjs.org/@electron-lang/celllib/-/celllib-0.1.0-next.5cafd1b.tgz#3ba27670357dc3e5f2907c0d4f0cf142bb537097"
 
 "@electron-lang/electron@next":
-  version "0.1.0-next.f008ff69"
-  resolved "https://registry.npmjs.org/@electron-lang/electron/-/electron-0.1.0-next.f008ff69.tgz#bf5b879dea5d0cdec99eab44de02f3ceadabced6"
+  version "0.1.0-next.5cafd1b"
+  resolved "https://registry.npmjs.org/@electron-lang/electron/-/electron-0.1.0-next.5cafd1b.tgz#175328c273af883c09728d3a6fe37723fc4320e4"
   dependencies:
-    "@electron-lang/celllib" "0.1.0-next.f008ff69"
-    "@electron-lang/netlist" "0.1.0-next.f008ff69"
+    "@electron-lang/celllib" "0.1.0-next.5cafd1b"
     chalk "^2.4.1"
     chevrotain "^3.5.0"
+    commander "^2.16.0"
+    libyosys "^0.0.8"
     prettier-printer "^1.1.2"
-
-"@electron-lang/netlist@0.1.0-next.f008ff69":
-  version "0.1.0-next.f008ff69"
-  resolved "https://registry.npmjs.org/@electron-lang/netlist/-/netlist-0.1.0-next.f008ff69.tgz#773a3d51b3ee2caa2c8320da8615f014256f20a1"
-  dependencies:
-    "@electron-lang/celllib" "0.1.0-next.f008ff69"
-    "@types/handlebars" "^4.0.38"
-    commander "^2.15.1"
-    handlebars "^4.0.11"
-    json5 "^1.0.1"
-    jsonschema "^1.2.4"
-    readline-sync "^1.4.9"
 
 "@lec/electron@^0.0.1":
   version "0.0.1"
   resolved "https://registry.npmjs.org/@lec/electron/-/electron-0.0.1.tgz#bb427d14606c968817ae07380ff6a6ab1eaa9954"
 
-"@types/handlebars@^4.0.38":
-  version "4.0.38"
-  resolved "https://registry.npmjs.org/@types/handlebars/-/handlebars-4.0.38.tgz#d0ebec1934c0bba97f99a0cb703fe2ef8c4a662f"
-
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
-
-align-text@^0.1.1, align-text@^0.1.3:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/align-text/-/align-text-0.1.4.tgz#0cd90a561093f35d0a99256c22b7069433fad117"
-  dependencies:
-    kind-of "^3.0.2"
-    longest "^1.0.1"
-    repeat-string "^1.5.2"
-
-amdefine@>=0.0.4:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/amdefine/-/amdefine-1.0.1.tgz#4a5282ac164729e93619bcfd3ad151f817ce91f5"
 
 ansi-align@^2.0.0:
   version "2.0.0"
@@ -116,10 +89,6 @@ async-each@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/async-each/-/async-each-1.0.1.tgz#19d386a1d9edc6e7c1c85d388aedbcc56d33602d"
 
-async@^1.4.0:
-  version "1.5.2"
-  resolved "https://registry.npmjs.org/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
-
 babel-polyfill@6.23.0:
   version "6.23.0"
   resolved "https://registry.npmjs.org/babel-polyfill/-/babel-polyfill-6.23.0.tgz#8364ca62df8eafb830499f699177466c3b03499d"
@@ -174,10 +143,6 @@ builtin-modules@^1.0.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
 
-camelcase@^1.0.2:
-  version "1.2.1"
-  resolved "https://registry.npmjs.org/camelcase/-/camelcase-1.2.1.tgz#9bb5304d2e0b56698b2c758b08a3eaa9daa58a39"
-
 camelcase@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/camelcase/-/camelcase-3.0.0.tgz#32fc4b9fcdaf845fcdf7e73bb97cac2261f0ab0a"
@@ -189,13 +154,6 @@ camelcase@^4.0.0:
 capture-stack-trace@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/capture-stack-trace/-/capture-stack-trace-1.0.0.tgz#4a6fa07399c26bba47f0b2496b4d0fb408c5550d"
-
-center-align@^0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/center-align/-/center-align-0.1.3.tgz#aa0d32629b6ee972200411cbd4461c907bc2b7ad"
-  dependencies:
-    align-text "^0.1.3"
-    lazy-cache "^1.0.3"
 
 chalk@1.1.3, chalk@^1.0.0, chalk@^1.1.1, chalk@^1.1.3:
   version "1.1.3"
@@ -220,8 +178,8 @@ chardet@^0.4.0:
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
 
 chevrotain@^3.5.0:
-  version "3.7.3"
-  resolved "https://registry.npmjs.org/chevrotain/-/chevrotain-3.7.3.tgz#1d7a8dc4b0a05324b5d733fec52921a48a5a828a"
+  version "3.7.4"
+  resolved "https://registry.npmjs.org/chevrotain/-/chevrotain-3.7.4.tgz#d2fea706d74fab60cdd879ed6425cc1feb522a9b"
   dependencies:
     regexp-to-ast "0.3.5"
 
@@ -270,14 +228,6 @@ clipboard@^2.0.0:
     select "^1.1.2"
     tiny-emitter "^2.0.0"
 
-cliui@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/cliui/-/cliui-2.1.0.tgz#4b475760ff80264c762c3a1719032e91c7fea0d1"
-  dependencies:
-    center-align "^0.1.1"
-    right-align "^0.1.1"
-    wordwrap "0.0.2"
-
 cliui@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmjs.org/cliui/-/cliui-3.2.0.tgz#120601537a916d29940f934da3b48d585a39213d"
@@ -300,9 +250,9 @@ color-name@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
 
-commander@^2.15.1:
-  version "2.16.0"
-  resolved "https://registry.npmjs.org/commander/-/commander-2.16.0.tgz#f16390593996ceb4f3eeb020b31d78528f7f8a50"
+commander@^2.16.0:
+  version "2.17.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-2.17.0.tgz#9d07b25e2a6f198b76d8b756a0e8a9604a6a1a60"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -378,7 +328,7 @@ debug@2.6.9, debug@^2.1.2, debug@^2.6.8:
   dependencies:
     ms "2.0.0"
 
-decamelize@^1.0.0, decamelize@^1.1.1:
+decamelize@^1.1.1:
   version "1.2.0"
   resolved "https://registry.npmjs.org/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
@@ -683,16 +633,6 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.npmjs.org/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-handlebars@^4.0.11:
-  version "4.0.11"
-  resolved "https://registry.npmjs.org/handlebars/-/handlebars-4.0.11.tgz#630a35dfe0294bc281edae6ffc5d329fc7982dcc"
-  dependencies:
-    async "^1.4.0"
-    optimist "^0.6.1"
-    source-map "^0.4.4"
-  optionalDependencies:
-    uglify-js "^2.6"
-
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
@@ -914,21 +854,11 @@ isobject@^2.0.0:
   dependencies:
     isarray "1.0.0"
 
-json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  dependencies:
-    minimist "^1.2.0"
-
 jsonfile@^2.1.0:
   version "2.4.0"
   resolved "https://registry.npmjs.org/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
   optionalDependencies:
     graceful-fs "^4.1.6"
-
-jsonschema@^1.2.4:
-  version "1.2.4"
-  resolved "https://registry.npmjs.org/jsonschema/-/jsonschema-1.2.4.tgz#a46bac5d3506a254465bc548876e267c6d0d6464"
 
 kind-of@^3.0.2:
   version "3.2.2"
@@ -946,15 +876,18 @@ latest-version@^3.0.0:
   dependencies:
     package-json "^4.0.0"
 
-lazy-cache@^1.0.3:
-  version "1.0.4"
-  resolved "https://registry.npmjs.org/lazy-cache/-/lazy-cache-1.0.4.tgz#a1d78fc3a50474cb80845d3b3b6e1da49a446e8e"
-
 lcid@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/lcid/-/lcid-1.0.0.tgz#308accafa0bc483a3867b4b6f2b9506251d1b835"
   dependencies:
     invert-kv "^1.0.0"
+
+libyosys@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/libyosys/-/libyosys-0.0.8.tgz#c46ad4af578298027456883e4ea6a2232c163b2e"
+  dependencies:
+    node-addon-api "^1.4.0"
+    prebuildify-load "git+https://git@github.com/dvc94ch/prebuildify-load.git"
 
 livereload@^0.6.2:
   version "0.6.3"
@@ -977,10 +910,6 @@ load-json-file@^1.0.0:
 lodash@^4.3.0:
   version "4.17.10"
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
-
-longest@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.npmjs.org/longest/-/longest-1.0.1.tgz#30a0b2da38f73770e8294a0d22e6625ed77d0097"
 
 lowercase-keys@^1.0.0:
   version "1.0.1"
@@ -1051,10 +980,6 @@ minimist@1.2.0, minimist@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.0.tgz#a35008b20f41383eec1fb914f4cd5df79a264284"
 
-minimist@~0.0.1:
-  version "0.0.10"
-  resolved "https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz#de3f98543dbf96082be48ad1a0c7cda836301dcf"
-
 minipass@^2.2.1, minipass@^2.3.3:
   version "2.3.3"
   resolved "https://registry.npmjs.org/minipass/-/minipass-2.3.3.tgz#a7dcc8b7b833f5d368759cce544dccb55f50f233"
@@ -1097,6 +1022,10 @@ needle@^2.2.1:
 nested-error-stacks@^2.0.0:
   version "2.0.1"
   resolved "https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.0.1.tgz#d2cc9fc5235ddb371fc44d506234339c8e4b0a4b"
+
+node-addon-api@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.4.0.tgz#4c43e4c1ed8fbf3176ce71003f352329adad87eb"
 
 node-fetch@1.6.3:
   version "1.6.3"
@@ -1154,8 +1083,8 @@ npm-bundled@^1.0.1:
   resolved "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.0.3.tgz#7e71703d973af3370a9591bafe3a63aca0be2308"
 
 npm-packlist@^1.1.6:
-  version "1.1.10"
-  resolved "https://registry.npmjs.org/npm-packlist/-/npm-packlist-1.1.10.tgz#1039db9e985727e464df066f4cf0ab6ef85c398a"
+  version "1.1.11"
+  resolved "https://registry.npmjs.org/npm-packlist/-/npm-packlist-1.1.11.tgz#84e8c683cbe7867d34b1d357d893ce29e28a02de"
   dependencies:
     ignore-walk "^3.0.1"
     npm-bundled "^1.0.1"
@@ -1230,13 +1159,6 @@ opn@4.0.2:
     object-assign "^4.0.1"
     pinkie-promise "^2.0.0"
 
-optimist@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
-  dependencies:
-    minimist "~0.0.1"
-    wordwrap "~0.0.2"
-
 options@>=0.0.5:
   version "0.0.6"
   resolved "https://registry.npmjs.org/options/-/options-0.0.6.tgz#ec22d312806bb53e731773e7cdaefcf1c643128f"
@@ -1310,8 +1232,8 @@ partial.lenses.validation@^1.0.4:
     partial.lenses "^13.12.0"
 
 partial.lenses@^13.12.0:
-  version "13.14.0"
-  resolved "https://registry.npmjs.org/partial.lenses/-/partial.lenses-13.14.0.tgz#db496747e80d0b1eff21481e4e55aa1e0351bd9f"
+  version "13.16.0"
+  resolved "https://registry.npmjs.org/partial.lenses/-/partial.lenses-13.16.0.tgz#e4a0e78988c4014c18abc7a5293a1f8d0cb7b2eb"
   dependencies:
     infestines "^0.4.9"
 
@@ -1358,6 +1280,10 @@ pinkie-promise@^2.0.0:
 pinkie@^2.0.0:
   version "2.0.4"
   resolved "https://registry.npmjs.org/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
+
+"prebuildify-load@git+https://git@github.com/dvc94ch/prebuildify-load.git":
+  version "2.0.0"
+  resolved "git+https://git@github.com/dvc94ch/prebuildify-load.git#443be935312d661111b3c493a4e4f15fdf14804d"
 
 prepend-http@^1.0.1:
   version "1.0.4"
@@ -1445,10 +1371,6 @@ readdirp@^2.0.0:
     readable-stream "^2.0.2"
     set-immediate-shim "^1.0.1"
 
-readline-sync@^1.4.9:
-  version "1.4.9"
-  resolved "https://registry.npmjs.org/readline-sync/-/readline-sync-1.4.9.tgz#3eda8e65f23cd2a17e61301b1f0003396af5ecda"
-
 regenerator-runtime@^0.10.0:
   version "0.10.5"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
@@ -1510,12 +1432,6 @@ restore-cursor@^2.0.0:
   dependencies:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
-
-right-align@^0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/right-align/-/right-align-0.1.3.tgz#61339b722fe6a3515689210d24e14c96148613ef"
-  dependencies:
-    align-text "^0.1.1"
 
 rimraf@^2.6.1:
   version "2.6.2"
@@ -1612,16 +1528,6 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
   resolved "https://registry.npmjs.org/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-source-map@^0.4.4:
-  version "0.4.4"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
-  dependencies:
-    amdefine ">=0.0.4"
-
-source-map@~0.5.1:
-  version "0.5.7"
-  resolved "https://registry.npmjs.org/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
-
 spdx-correct@^3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/spdx-correct/-/spdx-correct-3.0.0.tgz#05a5b4d7153a195bc92c3c425b69f3b2a9524c82"
@@ -1714,8 +1620,8 @@ supports-color@^5.3.0:
     has-flag "^3.0.0"
 
 tar@^4:
-  version "4.4.4"
-  resolved "https://registry.npmjs.org/tar/-/tar-4.4.4.tgz#ec8409fae9f665a4355cc3b4087d0820232bb8cd"
+  version "4.4.6"
+  resolved "https://registry.npmjs.org/tar/-/tar-4.4.6.tgz#63110f09c00b4e60ac8bcfe1bf3c8660235fbc9b"
   dependencies:
     chownr "^1.0.1"
     fs-minipass "^1.2.5"
@@ -1756,19 +1662,6 @@ tmp@^0.0.33:
 tweezer.js@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/tweezer.js/-/tweezer.js-1.4.0.tgz#206ff568ad34cf0e56a04307d99ffc52193d5045"
-
-uglify-js@^2.6:
-  version "2.8.29"
-  resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-2.8.29.tgz#29c5733148057bb4e1f75df35b7a9cb72e6a59dd"
-  dependencies:
-    source-map "~0.5.1"
-    yargs "~3.10.0"
-  optionalDependencies:
-    uglify-to-browserify "~1.0.0"
-
-uglify-to-browserify@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
 ultron@1.0.x:
   version "1.0.2"
@@ -1846,18 +1739,6 @@ widest-line@^2.0.0:
   dependencies:
     string-width "^2.1.1"
 
-window-size@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
-
-wordwrap@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.2.tgz#b79669bb42ecb409f83d583cad52ca17eaa1643f"
-
-wordwrap@~0.0.2:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz#a3d5da6cd5c0bc0008d37234bbaf1bed63059107"
-
 wrap-ansi@^2.0.0:
   version "2.1.0"
   resolved "https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-2.1.0.tgz#d8fc3d284dd05794fe84973caecdd1cf824fdd85"
@@ -1931,12 +1812,3 @@ yargs@^7.0.2:
     which-module "^1.0.0"
     y18n "^3.2.1"
     yargs-parser "^5.0.0"
-
-yargs@~3.10.0:
-  version "3.10.0"
-  resolved "https://registry.npmjs.org/yargs/-/yargs-3.10.0.tgz#f7ee7bd857dd7c1d2d38c0e74efbd681d1431fd1"
-  dependencies:
-    camelcase "^1.0.2"
-    cliui "^2.1.0"
-    decamelize "^1.0.0"
-    window-size "0.1.0"

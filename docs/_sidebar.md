@@ -1,2 +1,1 @@
-* [Voltage Divider](README.md)
-* [Reference](vdiv.md)
+* [Reference](electron-quickstart.md)
