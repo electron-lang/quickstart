@@ -9,15 +9,19 @@
     "@electron-lang/electron": "next"
   },
   "dependencies": {
+    "docsify-cli": "^4.2.1",
+    "electron-qeda": "^1.0.0",
     "electron_lec": "^0.0.1",
-    "docsify-cli": "^4.2.1"
+    "libkicad": "next"
   },
   "scripts": {
-    "prepare": "yarn build && yarn kicad && yarn bom && yarn docs",
+    "prepare": "yarn build && yarn kicad && yarn bom && yarn docs && yarn layout",
     "build": "lecc build",
     "kicad": "lecc kicad VoltageDivider",
     "bom": "lecc bom VoltageDivider",
     "docs": "lecc docs",
-    "serve": "docsify serve ./docs"
+    "serve": "docsify serve ./docs",
+    "layout": "node make-layout.js",
+    "clean": "rm -rf build layout"
   }
 }

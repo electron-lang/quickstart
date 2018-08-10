@@ -8,13 +8,13 @@ export module VoltageDivider {
 
   @rotate(90)
   @value("10K")
-  @footprint("Resistors_SMD:R_0402_NoSilk")
+  @footprint("vdiv:R0402")
   @bom("Yageo", "RC0402FR-0710KL")
   cell r1 = $R(10k) {A=vin, B=vout}
 
   @rotate(90)
-  @value("22K")
-  @footprint("Resistors_SMD:R_0603_NoSilk")
-  @bom("Yageo", "RC0603FR-0722KL")
-  cell r2 = $R(22k) {A=vout, B=gnd}
+  @value("10K")
+  @footprint("vdiv:R0402")
+  @bom("Yageo", "RC0402FR-0710KL")
+  cell r2 = $R(10k) {A=vout, B=gnd}
 }
