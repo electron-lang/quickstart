@@ -7,6 +7,19 @@ verilog. It builds on Theia IDE and sprotty to provide modern tool support.
 
 Checkout the [docs](https://electron-lang.github.io/quickstart).
 
+## Getting started
+```sh
+yarn
+cd layout
+pcbnew $PWD/VoltageDivider.kicad_pcb
+```
+
+Click the `read-netlist` icon.
+Click `Read Current Netlist`.
+Click `Close`.
+
+Start your layout.
+
 ## License
 ISC License
 
