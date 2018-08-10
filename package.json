@@ -9,14 +9,14 @@
     "@electron-lang/electron": "next"
   },
   "dependencies": {
-    "@lec/electron": "^0.0.1",
+    "electron_lec": "^0.0.1",
     "docsify-cli": "^4.2.1"
   },
   "scripts": {
     "prepare": "yarn build && yarn kicad && yarn bom && yarn docs",
     "build": "lecc build",
-    "kicad": "lecc kicad",
-    "bom": "lecc bom",
+    "kicad": "lecc kicad VoltageDivider",
+    "bom": "lecc bom VoltageDivider",
     "docs": "lecc docs",
     "serve": "docsify serve ./docs"
   }

@@ -2,24 +2,21 @@
 # yarn lockfile v1
 
 
-"@electron-lang/celllib@0.1.0-next.5cafd1b":
-  version "0.1.0-next.5cafd1b"
-  resolved "https://registry.npmjs.org/@electron-lang/celllib/-/celllib-0.1.0-next.5cafd1b.tgz#3ba27670357dc3e5f2907c0d4f0cf142bb537097"
+"@electron-lang/celllib@0.1.0-next.e54e71a":
+  version "0.1.0-next.e54e71a"
+  resolved "https://registry.npmjs.org/@electron-lang/celllib/-/celllib-0.1.0-next.e54e71a.tgz#797a6a4e2ada2149db4a76451f571078a2c1b15b"
 
 "@electron-lang/electron@next":
-  version "0.1.0-next.5cafd1b"
-  resolved "https://registry.npmjs.org/@electron-lang/electron/-/electron-0.1.0-next.5cafd1b.tgz#175328c273af883c09728d3a6fe37723fc4320e4"
+  version "0.1.0-next.e54e71a"
+  resolved "https://registry.npmjs.org/@electron-lang/electron/-/electron-0.1.0-next.e54e71a.tgz#83ca63ac2aaaae616ab9e66d5a3a445e58c598ed"
   dependencies:
-    "@electron-lang/celllib" "0.1.0-next.5cafd1b"
+    "@electron-lang/celllib" "0.1.0-next.e54e71a"
     chalk "^2.4.1"
     chevrotain "^3.5.0"
     commander "^2.16.0"
+    libkicad next
     libyosys "^0.0.8"
     prettier-printer "^1.1.2"
-
-"@lec/electron@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/@lec/electron/-/electron-0.0.1.tgz#bb427d14606c968817ae07380ff6a6ab1eaa9954"
 
 abbrev@1:
   version "1.1.1"
@@ -177,7 +174,7 @@ chardet@^0.4.0:
   version "0.4.2"
   resolved "https://registry.npmjs.org/chardet/-/chardet-0.4.2.tgz#b5473b33dc97c424e5d98dc87d55d4d8a29c8bf2"
 
-chevrotain@^3.5.0:
+chevrotain@^3.5.0, chevrotain@^3.7.4:
   version "3.7.4"
   resolved "https://registry.npmjs.org/chevrotain/-/chevrotain-3.7.4.tgz#d2fea706d74fab60cdd879ed6425cc1feb522a9b"
   dependencies:
@@ -251,8 +248,8 @@ color-name@1.1.1:
   resolved "https://registry.npmjs.org/color-name/-/color-name-1.1.1.tgz#4b1415304cf50028ea81643643bd82ea05803689"
 
 commander@^2.16.0:
-  version "2.17.0"
-  resolved "https://registry.npmjs.org/commander/-/commander-2.17.0.tgz#9d07b25e2a6f198b76d8b756a0e8a9604a6a1a60"
+  version "2.17.1"
+  resolved "https://registry.npmjs.org/commander/-/commander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
 
 concat-map@0.0.1:
   version "0.0.1"
@@ -408,6 +405,10 @@ duplexer3@^0.1.4:
 ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
+
+electron_lec@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/electron_lec/-/electron_lec-0.0.1.tgz#5818cf9fbcfd17ce17568675c3fab00b71e8f7c5"
 
 encodeurl@~1.0.1, encodeurl@~1.0.2:
   version "1.0.2"
@@ -681,8 +682,8 @@ imurmurhash@^0.1.4:
   resolved "https://registry.npmjs.org/imurmurhash/-/imurmurhash-0.1.4.tgz#9218b9b2b928a238b13dc4fb6b6d576f231453ea"
 
 infestines@^0.4.9:
-  version "0.4.9"
-  resolved "https://registry.npmjs.org/infestines/-/infestines-0.4.9.tgz#51480ddce36430b102835153bddac61a15c4bbde"
+  version "0.4.10"
+  resolved "https://registry.npmjs.org/infestines/-/infestines-0.4.10.tgz#1b23ce6c6fee2898ac55b40645294774d9df144b"
 
 inflight@^1.0.4:
   version "1.0.6"
@@ -882,6 +883,13 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+libkicad@next:
+  version "0.1.0-next.c6a2eba"
+  resolved "https://registry.npmjs.org/libkicad/-/libkicad-0.1.0-next.c6a2eba.tgz#6807ae96305ef9b2a5d07d353256c0cd26b97209"
+  dependencies:
+    chevrotain "^3.7.4"
+    prettier-printer "^1.1.2"
+
 libyosys@^0.0.8:
   version "0.0.8"
   resolved "https://registry.npmjs.org/libyosys/-/libyosys-0.0.8.tgz#c46ad4af578298027456883e4ea6a2232c163b2e"
@@ -1012,8 +1020,8 @@ nan@^2.9.2:
   resolved "https://registry.npmjs.org/nan/-/nan-2.10.0.tgz#96d0cd610ebd58d4b4de9cc0c6828cda99c7548f"
 
 needle@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.npmjs.org/needle/-/needle-2.2.1.tgz#b5e325bd3aae8c2678902fa296f729455d1d3a7d"
+  version "2.2.2"
+  resolved "https://registry.npmjs.org/needle/-/needle-2.2.2.tgz#1120ca4c41f2fcc6976fd28a8968afe239929418"
   dependencies:
     debug "^2.1.2"
     iconv-lite "^0.4.4"
@@ -1079,8 +1087,8 @@ normalize-path@^2.0.0, normalize-path@^2.0.1:
     remove-trailing-separator "^1.0.1"
 
 npm-bundled@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.0.3.tgz#7e71703d973af3370a9591bafe3a63aca0be2308"
+  version "1.0.4"
+  resolved "https://registry.npmjs.org/npm-bundled/-/npm-bundled-1.0.4.tgz#81ee67cb61f13f6f2dabe6728283ee35a5821829"
 
 npm-packlist@^1.1.6:
   version "1.1.11"
@@ -1315,8 +1323,8 @@ pseudomap@^1.0.2:
   resolved "https://registry.npmjs.org/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
 
 randomatic@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/randomatic/-/randomatic-3.0.0.tgz#d35490030eb4f7578de292ce6dfb04a91a128923"
+  version "3.1.0"
+  resolved "https://registry.npmjs.org/randomatic/-/randomatic-3.1.0.tgz#36f2ca708e9e567f5ed2ec01949026d50aa10116"
   dependencies:
     is-number "^4.0.0"
     kind-of "^6.0.0"
@@ -1711,8 +1719,8 @@ utils-merge@1.0.1:
   resolved "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
 
 validate-npm-package-license@^3.0.1:
-  version "3.0.3"
-  resolved "https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.3.tgz#81643bcbef1bdfecd4623793dc4648948ba98338"
+  version "3.0.4"
+  resolved "https://registry.npmjs.org/validate-npm-package-license/-/validate-npm-package-license-3.0.4.tgz#fc91f6b9c7ba15c857f4cb2c5defeec39d4f410a"
   dependencies:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"

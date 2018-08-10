@@ -1,4 +1,4 @@
-import $R from "@lec/electron/src/cells"
+import $R from "electron_lec/src/cells"
 
 /// A voltage divider.
 export module VoltageDivider {
