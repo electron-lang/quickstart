@@ -7,14 +7,10 @@ export module VoltageDivider {
   @bottom analog gnd
 
   @rotate(90)
-  @value("10K")
-  @footprint("vdiv:R0402")
-  @bom("Yageo", "RC0402FR-0710KL")
+  @cpl("10k")
   cell r1 = $R(10k) {A=vin, B=vout}
 
   @rotate(90)
-  @value("10K")
-  @footprint("vdiv:R0402")
-  @bom("Yageo", "RC0402FR-0710KL")
+  @cpl("22k")
   cell r2 = $R(10k) {A=vout, B=gnd}
 }
