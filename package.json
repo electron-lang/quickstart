@@ -6,12 +6,12 @@
   "author": "David Craven <david@craven.ch>",
   "license": "ISC",
   "devDependencies": {
-    "@electron-lang/electron": "next"
+    "@electron-lang/electron": "0.0.5"
   },
   "dependencies": {
     "docsify-cli": "^4.2.1",
     "electron-qeda": "^1.0.0",
-    "electron_lec": "^0.0.1",
+    "electron_lec": "0.0.5",
     "libkicad": "next"
   },
   "scripts": {
